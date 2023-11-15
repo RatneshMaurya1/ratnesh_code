@@ -7,5 +7,18 @@
 </head>
 <body>
   <h1>Helllo World!</h1>
+  <p>We have not told Git the location of the “origin” repository. We’ve initialized a new repository using “git init” and so our repository is not linked to any remote repository by default.
+
+    To fix this error, we need to manually tell Git where the remote version of our repository exists. Do this using the git remote add command:
+    
+    git remote add origin https://github.com/career-karma-tutorials/ck-git
+    
+    This command tells Git the remote called “origin” should be associated with a particular URL. Git now knows where the remote version of our repository exists.
+    
+    Let’s try to push our code again:
+    
+    git push origin master
+    
+    The Git command line successfully pushes our code to our remote repository.</p>
 </body>
 </html>
